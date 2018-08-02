@@ -335,7 +335,7 @@ you should place your code here."
   (eval-after-load 'git-link
     '(progn
        (add-to-list 'git-link-remote-alist
-                    '("git\\.garena\\.com" git-link-github))
+                    '("git\\.garena\\.com" git-link-gitlab))
        ))
   )
 
