@@ -332,6 +332,11 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  (eval-after-load 'git-link
+    '(progn
+       (add-to-list 'git-link-remote-alist
+                    '("git\\.garena\\.com" git-link-github))
+       ))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
