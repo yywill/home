@@ -4,6 +4,7 @@
 export GOPATH=$HOME/go
 PATH+="/usr/local/opt/python@2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 PATH+=:$GOPAT/bin
+PATH+=:/usr/local/smlnj/bin
 export PATH
 export EDITOR='subl -w'
 # export PYTHONPATH=$PYTHONPATH
